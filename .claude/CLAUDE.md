@@ -46,6 +46,12 @@ When completing significant work, update the relevant project profile in MemoryC
   4. Can this pattern help other projects? → Transfer it
 - Log all evolution actions in the Evolution Log
 
+## Security Protocol
+- **Protocol**: `{MEMORY_PATH}/core-security-protocol.md`
+- **Run proactively** during development — not just at review time
+- Covers: secret protection, injection prevention, auth/authorization, data isolation, file uploads, API security, dependencies, production hardening
+- **If a secret is exposed**: Rotate immediately, revoke old key, scrub git history
+
 ## Review Protocol
 - **Protocol**: `{MEMORY_PATH}/core-review-protocol.md`
 - **AFTER every significant task**: Run the review checklist before saying "done"
