@@ -1,4 +1,4 @@
-# MemoryCore
+# MemoryCore Project OpenSource
 
 **A persistent memory system for Claude Code (or any AI coding agent).**
 
